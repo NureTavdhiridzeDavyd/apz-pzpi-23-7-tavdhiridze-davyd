@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hivetrack.mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:2:22-64
+12
+13    <application
+13-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:3:5-16:19
+14        android:allowBackup="true"
+14-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:4:9-35
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="HiveTrack Mobile"
+17-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:5:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme"
+19-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:6:9-40
+20        android:usesCleartextTraffic="true" >
+20-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:7:9-44
+21        <activity
+21-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:8:9-15:20
+22            android:name="com.hivetrack.mobile.MainActivity"
+22-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:9:13-41
+23            android:exported="true" >
+23-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:10:13-36
+24            <intent-filter>
+24-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:11:13-14:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:12:17-69
+25-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:12:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:13:17-77
+27-->C:\Users\david\Downloads\HiveTrackMobile_full_system\app\src\main\AndroidManifest.xml:13:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
